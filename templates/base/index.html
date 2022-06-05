@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+<!-- https://unsplash.it/400/400 -->
+    <title>Vela</title>
+
+  </head>
+  <body class="container main-body">
+    <!-- <div class="d-flex flex-column px-0 mx-1  justify-content-around"> -->
+      <nav class="navbar ms-4 navbar-expand-lg navbar-light bg-light my-3 border border-0 rounded d-flex flex-column">
+        <div class="container-fluid d-flex row">
+          <div class="col-1">
+              <a href="#" class="navbar-brand">Vela</a>
+          </div>
+
+          <div class="d-flex col-3 row-reverse">
+            <button class="btn btn-sm btn-primary mx-2">
+              <a href="#" class="d-inline-block text-white" style="text-decoration: none;"><strong>Log In</strong></a>
+            </button>
+            <button class="btn btn-sm btn-secondary mx-2">
+              <a href="#" class="d-inline-block text-white" style="text-decoration: none;"><strong>Sign Up</strong></a>
+            </button>
+          </div>
+
+        </div>
+        <form class="container-fluid col-7">
+          <div class="input-group form-control">
+            <input type="text" class="form-control border-0 border-end" placeholder="Search" aria-label="search" aria-describedby="basic-addon1">
+            <button class="btn btn-outline-success border-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+
+      </nav>
+
+      <div class="container row justify-content-around">
+
+        <main class="col col-md-12 col-lg-8" style="aspect-ratio:5/4;">
+          <section class="border rounded-3 mb-5 post">
+            <div class="flex-row flex-start">
+              <div class="d-flex flex-start flex-fill justify-content-between border-bottom py-1">
+                <div class="d-flex flex-row ">
+                  <div class="d-inline-block m-md-1">
+                    v/groupname &nbsp
+                  </div>
+                  <div class="d-inline-block m-md-1">
+                    @username
+                  </div>
+                  <div class="d-sm-inline-block d-none m-md-1 flex-end">
+                    post information
+                  </div>
+                 </div>
+
+                <!-- Modal -->
+                <div class="me-1 my-1 flex-end">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-ellipsis"></i></button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col mx-md-2 ms-xs-3 ps-sx-3 py-md-2">
+              <div class="d-flex flex-column col">
+                <h4 class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <figure class="figure align-self-center">
+                  <img src="./IMG_20220210_084309.jpg" class="figure-img pe-2 img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="ps-2">
+              <div class="px-md-3 my-1 d-inline-block" style="cursor:pointer;"><i class="fa-solid fa-thumbs-up"></i></div>
+              <div class="mx-md-2 d-inline-block">10.2k</div>
+              <div class="px-2 px-md-3 my-1 d-inline-block" style="cursor:pointer;"><i class="fa-solid fa-thumbs-down"></i></div>
+              <div class="px-2 px-md-3 my-1 d-inline-block" style="cursor:pointer;"><i class="fa-regular fa-comment"></i> 1.2k comments</div>
+              <div class="px-2 px-md-3 my-1 d-inline-block" style="cursor:pointer;"><i class="fa-solid fa-share-from-square"></i> share</div>
+            </div>
+
+          </section>
+          <section class="border rounded-3 mb-5 post">
+            <div class="flex-row flex-start">
+              <div class="d-flex flex-start flex-fill justify-content-between border-bottom py-1">
+                <div class="d-flex flex-row ">
+                  <div class="d-inline-block m-md-1">
+                    v/groupname &nbsp
+                  </div>
+                  <div class="d-inline-block m-md-1">
+                    @username
+                  </div>
+                  <div class="d-sm-inline-block d-none m-md-1 flex-end">
+                    post information
+                  </div>
+                 </div>
+
+                <!-- Modal -->
+                <div class="me-1 my-1 flex-end">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-ellipsis"></i></button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col mx-md-2 ms-xs-3 ps-sx-3 py-md-2">
+              <div class="d-flex flex-column col">
+                <h4 class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <figure class="figure align-self-center">
+                  <img src="./IMG_20220210_084309.jpg" class="figure-img pe-2 img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="ps-2 d-lg-flex d-sx-row flex-lg-column-1">
+              <div class="px-md-3 my-1 d-inline-block" style="cursor:pointer;"><i class="fa-solid fa-thumbs-up"></i></div>
+              <div class="mx-md-2 d-inline-block">10.2k</div>
+              <div class="px-2 px-md-3 my-1 d-inline-block" style="cursor:pointer;"><i class="fa-solid fa-thumbs-down"></i></div>
+              <div class="px-2 px-md-3 my-1 d-inline-block" style="cursor:pointer;"><i class="fa-regular fa-comment"></i> 1.2k comments</div>
+              <div class="px-2 px-md-3 my-1 d-inline-block" style="cursor:pointer;"><i class="fa-solid fa-share-from-square"></i> share</div>
+            </div>
+
+          </section>
+        </main>
+        <aside class="col col-md-auto d-none d-md-flex mx-0 px-0">
+          <div class="container">
+            <ul class="list-group border rounded border-0 c-list my-4 px-3 py-3" style="list-style:none; background-color: #FFFBDE;">
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">c.community-name</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">c.community-name</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">c.community-name</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">c.community-name</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">c.community-name</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-plus"></i></button>
+              </li>
+            </ul>
+
+            <ul class="d-flex list-group border rounded border-0 p-list my-4 px-3 py-3" style="list-style:none; background-color: #FFFBDE;">
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">p.first-person</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-user-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">p.another-person</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-user-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">p.anonymous-person</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-user-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" href="#" style="text-decoration:none;">p.anonymous-person</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-user-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <a class="align-self-center" class="align-self-center" href="#" style="text-decoration:none;">p.anonymous-person</a>
+                <button class="btn align-self-center" type="button" name="button"><i class="fa-solid fa-user-plus"></i></button>
+              </li>
+              <li class="list-item d-flex justify-content-between">
+                <button class="btn btn-sm btn-primary w-100" type="button" name="button">Explore More...</button>
+              </li>
+            </ul>
+          </div>
+
+        </aside>
+      </div>
+      <div class="footer h-20 w-100 background-color-primary">
+
+
+      </div>
+
+  </body>
+</html>

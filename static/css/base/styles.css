@@ -1,0 +1,19 @@
+.main-body{
+  background-color:#E1E8D5;
+}
+.post{
+  background-color: #FFFBDE;
+  border-color: #D8FFDB;
+  padding: 0.5rem;
+}
+.c-list .p-list{
+  /* background-color: #FFFBDE; */
+  border: 1px;
+}
+li{
+    height: 3rem;
+}
+
+button{
+  height: 100%;
+}

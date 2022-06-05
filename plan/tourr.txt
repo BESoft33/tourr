@@ -1,0 +1,55 @@
+Features:
+	1. Organize an event
+		a. Social Campaign
+		b. Trek and Tour
+		c. Study Group/ Discussion Group
+
+	2. Connect with People
+		- Follow and Follow back
+
+	3. Promote an event
+		- The event that is happenning around you.
+
+	4. Group formation
+		- Event Group
+		- Permanent Group focused on a topic
+
+
+	5. Share the photos/videos of the event
+		- show to the user who has joined
+		- promote to people around the user who has joined to plant an interest in them
+
+	6. Notification
+		-email notification
+		-notification section
+
+	7. Build user profile (Later)
+
+	8. Add guides and potters for the ones required
+
+	9. People can add themselves as guide or potter (manual review required)
+		- guides and potters are recommended according to the starting point
+		  and the areas the guides/potters are familiar with
+
+
+
+UI
+	Focused Area:
+	1. An event
+		-interested button
+		-join/ request to join
+
+	2. A post of an event	
+		- react
+		- comment
+		- share
+		- modify (applicable to owners only)
+		- download photos in high quality
+
+	Sidebar
+	1. Connect with people
+	2. Events joined
+	3. Other events around you
+
+
+	
